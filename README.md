@@ -4,6 +4,8 @@ yeah so this really sucks, thought i'd never have to make this code public but h
 
 you do NOT want to use this, this was 100% for internal use and the codebase is literally genuinely in every sense possible the worst javascript i've ever written in my life
 
+this is the flikk backend as it was used in the final game, with sensitive info, hardcoded tokens and admin passwords and ssl certificates removed, and git history removed.
+
 ## Setup
 
 Most things you'll figure out by failing to run `run.bat` but basically
