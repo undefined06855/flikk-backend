@@ -1,0 +1,53 @@
+! you found the sitemap! well done :)
+! endpoints with an * after them aren't implemeneted yet
+! also dont expect this to stay up-to-date or anything as well
+! /admin/ endpoints also need an admin password
+! so good luck using those!
+! (also these are all POST endpoints)
+
+/ping                                       !(alias for /meta, can be used when pinging and not using the info)
+/meta
+
+/account/new
+/account/get
+/account/setparam                           !(if the account password is known, if not use /admin)
+/account/getparam
+
+/motd/get
+
+/leaderboard/new
+/leaderboard/getTop
+/leaderboard/getAround *
+/leaderboard/getNewest
+
+/level/search/data
+/level/search/metadata
+/level/upload
+
+/level/get/single/metadata
+/level/get/single/data
+/level/get/list/data/
+/level/get/list/metadata/
+
+--- admin endpoints ------------------------------------------------------------
+
+/admin/leaderboard/deleteRecord
+
+/admin/account/changePassword
+/admin/account/deleteAccount
+/admin/account/setparam *
+
+/admin/createList
+
+/admin/get/getAllAccountData
+/admin/get/getSpecificAccountData
+/admin/get/getAllLeaderboardData
+/admin/get/getSpecificLeaderboardData
+
+/admin/level/setparam
+/admin/level/delete
+
+/admin/backup/triggerBinBackup
+/admin/backup/triggerLevelBackup
+
+/admin/motd/setMotd
